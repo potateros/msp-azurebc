@@ -1,0 +1,35 @@
+=============== Jan 6, 2018 (GMT) ===============
+05:36:34.754978 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+05:36:34.769978 db@open opening
+05:36:34.771978 version@stat F·[] S·0B[] Sc·[]
+05:36:34.787669 db@janitor F·2 G·0
+05:36:34.787669 db@open done T·17.6911ms
+=============== Jan 6, 2018 (GMT) ===============
+05:36:59.806742 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+05:36:59.806742 version@stat F·[] S·0B[] Sc·[]
+05:36:59.806742 db@open opening
+05:36:59.806742 journal@recovery F·1
+05:36:59.807744 journal@recovery recovering @1
+05:36:59.822742 memdb@flush created L0@2 N·9 S·549B "H\x82\x88..&*!,v3":"r\x00\x00..&*!,v5"
+05:36:59.823742 version@stat F·[1] S·549B[549B] Sc·[0.25]
+05:36:59.836257 db@janitor F·3 G·0
+05:36:59.836257 db@open done T·29.5156ms
+07:06:30.093126 db@close closing
+07:06:30.126127 db@close done T·33.0008ms
+=============== Jan 6, 2018 (GMT) ===============
+07:06:57.987615 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+07:06:57.987615 version@stat F·[1] S·549B[549B] Sc·[0.25]
+07:06:57.987615 db@open opening
+07:06:57.987615 journal@recovery F·1
+07:06:57.988615 journal@recovery recovering @3
+07:06:58.213772 memdb@flush created L0@5 N·47175 S·2MiB "\x00\x05\xf5..6\xa4\x9b,v21753":"\xff\xf2\xd1..\x88\x9c\xae,v33733"
+07:06:58.215772 version@stat F·[2] S·2MiB[2MiB] Sc·[0.50]
+07:06:58.231857 db@janitor F·4 G·0
+07:06:58.231857 db@open done T·244.2413ms
+07:07:05.448454 table@compaction L0·2 -> L1·0 S·2MiB Q·47380
+07:07:05.539454 table@build created L1@8 N·29403 S·2MiB "\x00\x05\xf5..6\xa4\x9b,v21753":"\xe0\xb0x..\xb3\x83@,v7205"
+07:07:05.552455 table@build created L1@9 N·953 S·91KiB "ಚ..$\xea\xa2,v19938":"\xff\xf2\xd1..\x88\x9c\xae,v33733"
+07:07:05.552455 version@stat F·[0 2] S·2MiB[0B 2MiB] Sc·[0.00 0.02]
+07:07:05.562455 table@compaction committed F~ S-493KiB Ke·0 D·16828 T·114.0016ms
+07:07:05.563454 table@remove removed @5
+07:07:05.564455 table@remove removed @2
