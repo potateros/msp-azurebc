@@ -14,11 +14,11 @@ bc4 is the second node
 
 * Open the terminal and run
 
-`[location of folder] -networkid [random numbers]`
+`geth --data-dir [location of folder] -networkid [random numbers]`
 
 Example:
 
-`\home\user\blockchain\ethnet\ -networkid 1234512345`
+`geth --data-dir \home\user\blockchain\ethnet\ -networkid 1234512345`
 
 * Open the Geth interactive console `geth attach`
 
